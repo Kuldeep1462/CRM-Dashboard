@@ -1,0 +1,48 @@
+/* Dotted background pattern like in the image */
+.dotted-background {
+  background: linear-gradient(135deg, #e0e7ff 0%, #f3e8ff 50%, #ddd6fe 100%);
+  position: relative;
+  min-height: 100vh;
+}
+
+.dotted-background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: radial-gradient(circle at 20px 20px, #c7d2fe 2px, transparent 2px),
+    radial-gradient(circle at 60px 60px, #ddd6fe 2px, transparent 2px),
+    radial-gradient(circle at 100px 100px, #c7d2fe 1.5px, transparent 1.5px);
+  background-size: 80px 80px, 120px 120px, 160px 160px;
+  background-position: 0 0, 40px 40px, 80px 80px;
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.dotted-background::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: radial-gradient(circle at 140px 40px, #a5b4fc 1px, transparent 1px),
+    radial-gradient(circle at 180px 80px, #c7d2fe 1.5px, transparent 1.5px);
+  background-size: 200px 200px, 240px 240px;
+  background-position: 20px 20px, 60px 60px;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+/* Clean white background */
+.clean-background {
+  background: #f8fafc;
+  min-height: 100vh;
+}
+
+.white-background {
+  background: white;
+  min-height: 100vh;
+}

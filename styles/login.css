@@ -1,0 +1,27 @@
+/* Login page specific styles */
+.login-container {
+  position: relative;
+  z-index: 1;
+}
+
+.login-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.login-text {
+  color: #1e293b !important;
+  font-weight: 600;
+}
+
+.login-subtitle {
+  color: #475569 !important;
+  font-weight: 500;
+}
+
+.feature-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}

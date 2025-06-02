@@ -1,0 +1,31 @@
+/* Campaigns page specific styles */
+.campaigns-container {
+  position: relative;
+  z-index: 1;
+}
+
+.campaigns-header {
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.campaigns-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.campaigns-text {
+  color: #1e293b !important;
+  font-weight: 600;
+}
+
+.campaigns-subtitle {
+  color: #475569 !important;
+  font-weight: 500;
+}
+
+.rule-card {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+}
