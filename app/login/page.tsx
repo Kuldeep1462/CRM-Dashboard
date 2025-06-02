@@ -8,6 +8,10 @@ import { Sparkles, Users, MessageSquare, TrendingUp, Shield } from "lucide-react
 export default function Login() {
   const [isLoading, setIsLoading] = useState(false)
   const router = useRouter()
+useEffect(() => {
+  console.log("Loaded Google Client ID:", process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID)
+  // ...rest of useEffect
+}, [])
 
   useEffect(() => {
     const token = localStorage.getItem("token")

@@ -48,7 +48,6 @@ A comprehensive full-stack CRM platform built with React.js, Next.js, Node.js, E
 - **OpenAI API** for AI features
 
 ### Deployment
-- **Frontend**: Vercel
 - **Backend**: Render/Railway
 - **Database**: MongoDB Atlas
 
@@ -80,7 +79,6 @@ OPENAI_API_KEY=sk-your-openai-api-key-here
 - Replace the placeholder values with your actual credentials
 - The `NEXT_PUBLIC_` prefix makes the Google Client ID available to the frontend
 - Never commit the `.env.local` file to version control
-- For production, set these in your Vercel project settings (which you've already done)
 
 ### Environment Variables
 
@@ -290,10 +288,6 @@ AI-powered message creation based on campaign context:
 
 ## Deployment
 
-### Frontend (Vercel)
-1. Connect your GitHub repository to Vercel
-2. Set environment variables in Vercel dashboard
-3. Deploy automatically on push to main branch
 
 ### Backend (Render/Railway)
 1. Create a new web service
